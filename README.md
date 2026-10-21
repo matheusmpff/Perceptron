@@ -9,6 +9,12 @@ Além disso, os dados e resultados obtidos durante o treinamento foram utilizado
 
 **Objetivo**: compreender, na prática, os fundamentos da classificação binária e do aprendizado de máquina por meio de experimentação e visualização dos resultados.
 
+## Demonstração da Animação
+
+A animação foi desenvolvida com **Manim** para visualizar o aprendizado do Perceptron, mostrando como a fronteira de decisão evolui ao longo do treinamento.
+
+[** Assistir à animação do Perceptron (MP4)**](notebook/media/videos/notebook/1080p60/AnimacaoPerceptron.mp4)
+
 ## Como executar o projeto
 
 O Docker permite executar o projeto em um ambiente previamente configurado, sem precisar instalar manualmente as dependências do Python na máquina. O contêiner disponibiliza o JupyterLab para executar o notebook e visualizar os resultados.

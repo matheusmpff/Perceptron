@@ -8,3 +8,32 @@ Além disso, os dados e resultados obtidos durante o treinamento foram utilizado
 **Tecnologias utilizadas:** Python, Scikit-learn, NumPy, Matplotlib e Seaborn.
 
 **Objetivo**: compreender, na prática, os fundamentos da classificação binária e do aprendizado de máquina por meio de experimentação e visualização dos resultados.
+
+## Como executar o projeto
+
+O Docker permite executar o projeto em um ambiente previamente configurado, sem precisar instalar manualmente as dependências do Python na máquina. O contêiner disponibiliza o JupyterLab para executar o notebook e visualizar os resultados.
+
+**Pré-requisitos:** Docker e Docker Compose.
+
+1. Clone o repositório:
+
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd Perceptron
+   ```
+
+2. Inicie o ambiente:
+
+   ```bash
+   docker compose up --build
+   ```
+
+3. Acesse o JupyterLab
+
+4. Abra o notebook `notebook/perceptron.ipynb` e execute as células.
+
+Para encerrar o ambiente, execute:
+
+```bash
+docker compose down
+```

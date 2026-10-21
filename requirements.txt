@@ -1,0 +1,6 @@
+jupyterlab
+scikit-learn
+pandas
+matplotlib
+seaborn
+manim

@@ -1,0 +1,9 @@
+# Ignora tudo
+*
+# Permite a pasta do notebook e seu conteúdo
+!notebook/
+!notebook/**
+# Permite os arquivos necessários na raiz
+!Dockerfile
+!compose.yaml
+!requirements.txt
